@@ -42,10 +42,8 @@ export default {
       return this.$refs.creditCardForm.validate()
     },
     getBilling () {
-      console.log(this.$refs.creditCardForm.isCardChanged())
       if (this.$refs.creditCardForm.isCardChanged()) {
         this.innerBilling.card = this.$refs.creditCardForm.getCreditCard()
-        console.log(this.innerBilling.card)
       }
       return this.innerBilling
     }

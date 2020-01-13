@@ -5,19 +5,15 @@
         <h3 class="display-2 font-weight-light mb-8">Donations</h3>
         <div>
           <p>
-            Thank you for partnering with us. Here at Springs Church, your
-            giving is helping us to touch countless lives with the positive life
-            changing message of the Bible. We pray God's richest blessings on
-            every area of your life, and that you will continue to have
-            significant influence for Him!
+            This application is a part of another project and published for the Demo purposes only.<br />
+            The sources to this app available for review there: <a href="http://bit.ly/2TmskQu">http://bit.ly/2TmskQu</a>
           </p>
-
           <p>
-            Springs Church is listed as a payee through your bank's online bill
-            payment system. You can now donate while you pay your other bills
-            online. To get started call the church office at (204) 233-7003 for
-            your account number, or CLICK HERE to submit your request online.
-            Canadian residents only.
+            All connections to the Server API are mocked with JS Objects. <br />
+            <b>Thus all the users data are alive within browser session only.</b>
+          </p>
+          <p>
+            Hardcoded login: <b>test@test.com</b><br />password: <b>test</b>
           </p>
         </div>
         <v-card class="elevation-0">

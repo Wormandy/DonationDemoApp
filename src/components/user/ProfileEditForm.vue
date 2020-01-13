@@ -37,7 +37,7 @@
             <v-card-title primary-title>Company Giving - Please Note</v-card-title>
             <v-divider />
             <v-card-text>
-              <p class="pt-5">By entering a company name here you are making a declaration that the donation is being made by a company. Once the donation has been made, this selection cannot be changed. We recommend that you speak to your accountant before making a donation from a company to ensure that this is the best tax treatment for you. We have found that making donations from Unincorporated businesses can cause issues with CRA and suggest that if your business is Unincorporated, you make your donation as an individual. Again, we recommend that you check with your accountant before proceeding.</p>
+              <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum libero augue, in eleifend enim congue in. Nullam et consequat nisl, dignissim interdum ligula.</p>
               <p>When giving under a company name the first and last names entered will be used for contact purposes only.</p>
               <p>Once this donor profile is created to give as a company, this selection cannot be undone.</p>
             </v-card-text>

@@ -23,10 +23,7 @@ const routes = [
     name: 'Donate',
     component: DonationForm,
     props: true,
-    ref: 'DonationForm',
-    beforeEnter: (to, from, next) => {
-      next()
-    }
+    ref: 'DonationForm'
   },
   {
     path: '/login',
@@ -73,11 +70,7 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes,
-  beforeEach: (from, to, next) => {
-    console.log(from, to)
-    next()
-  }
+  routes
 })
 
 export default router

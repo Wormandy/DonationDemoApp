@@ -236,7 +236,6 @@ export default {
   },
   watch: {
     'innerRecurring.period': function (val, oldVal) {
-      console.log(this.recurring.startDate)
       if (val && !this.dateHasChanged && !this.recurring.startDate) {
         let period = this.periods.find((item) => item.type === val)
         this.innerRecurring.startDate = moment().add(period.number, period.period).format('YYYY-MM-DD')
